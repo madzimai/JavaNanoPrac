@@ -14,7 +14,7 @@ public class Data{
         Data[] dataArr = { new Data(1), new Data(2),
               new Data(3), new Data(4) };
 
-        List<Data> dataList = new ArrayList<>( Arrays.asList(dataArr)); //1
+        List<Data> dataList =  new ArrayList<>(Arrays.asList(dataArr)); 
 
       
             dataList.removeIf( d -> {
