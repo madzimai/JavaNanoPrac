@@ -14,6 +14,9 @@ class TestClass {
 
 public class Main {
 	public static void main(String[] args) {
+		int i,k, j;
+		i=k=j=100;
+		System.out.println(i + j + k);
 		Person per = new Person();
 		per.name = "Original name";
 
