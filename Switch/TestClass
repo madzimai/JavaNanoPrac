@@ -1,0 +1,16 @@
+public class TestClass {
+	public static int getSwitch(String str){
+		return (int) Math.round(Double.parseDouble(
+			str.substring(1, str.length()-1)));
+}
+
+	public static void main(String[] args){
+	switch(getSwitch(argd[])){
+		case 0:System.out.println("Hello");
+		case 1: System.out.println(World"); break;
+		default: Sytem.out.println("Good Bye");
+		}
+
+	}
+
+}
