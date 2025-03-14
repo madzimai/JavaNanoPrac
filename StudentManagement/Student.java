@@ -45,21 +45,23 @@ public class Student {
 
 	
 	public static void  allStudents(){
-		System.out.println( totalStudents);
+		System.out.println("Total students: "+  totalStudents);
 	}
 
-	public boolean hasPassed(double grade){
+	public boolean hasPassed(){
 	if(this.grade >=50){
-		System.out.println("Pass");
-	}else {
-		System.out.println("Fail");
+		System.out.println(name +" has Passed");
+		return true;
+	} else {
+		System.out.println(name +" has Failed");
+		return false;
 		}
 		
-	return true;
+
 	}
 
 	public void  allStudents(int tatalStudents){
-		 System.out.println( "Students number in this class are : "+ totalStudents);
+		 System.out.println( "Students  in this class  : "+ totalStudents);
 
 
 	}
