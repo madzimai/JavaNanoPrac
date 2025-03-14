@@ -41,7 +41,7 @@ public class Person{
 		System.out.println("I am saying: " + message);
 	}
 	@Override
-	public Strint toString() {
+	public String toString() {
 		return "Person{name'" +name+ "', age=" +age+ ", height="+ height + "}";
 
 	}
