@@ -23,9 +23,11 @@ public class DynamicInput {
 
 	System.out.print("Age:  ");
 	int age = scan.nextInt();
+	scan.nextLine();
 
 	System.out.print("Grade:  ");
 	double grade = scan.nextDouble();
+	scan.nextLine();
 
 	students.add(new Student(name, age, grade));
 
@@ -35,13 +37,13 @@ public class DynamicInput {
 	Collections.sort(students, Comparator.comparing(Student::getName));
 	System.out.println("\nStudents sorted by name (A-Z):  ");
 	for (Student stud : students) { 
-		System.out.println(stud.getName());
+		System.out.println(stud.getName()+ ", Age: " +stud.getAge() +",Grade: " + stud.getGrade());
 	}
 
 
 	Student top = Collections.max(students, Comparator.comparingDouble(Student::getGrade));
 	System.out.println("\n Top Student");
-	System.out.println(top.getName());
+	System.out.println(top.getName()+ ",Age: "+top.getAge() +"Grade:  " +top.getGrade());
 
 	scan.close();
 
