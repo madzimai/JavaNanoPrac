@@ -27,10 +27,11 @@ System.out.println(abc);
 
  LocalDate date = LocalDate.now();  // Get current date
  LocalTime time = LocalTime.now();
- LocalDate futureDate = date.plus(Period.ofDays(10));  // ✅ Add 10 days
- LocalTime futureTime = time.plus(Duration.ofHours(5));  // ✅ Add 5 hours
-
+ LocalDate futureDate = date.plus(Period.ofMonths(1).ofDays(10));  
+ LocalTime futureTime = time.plus(Duration.ofHours(5)); 
+ 
 System.out.println("10 days later: " + futureDate);
+
 System.out.println("5 hours later: " + futureTime);
 
 	}
