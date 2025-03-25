@@ -9,8 +9,10 @@ public class Test {
 	int val2 = 9;
 	testInts(val1++, ++val2);
 	System.out.println(val1+ " "+val2);
+	
 
-	}
+		}
+
 
 
 
