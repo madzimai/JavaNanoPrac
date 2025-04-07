@@ -101,25 +101,24 @@ public class Card {
     	
     	// must run program with -ea flag (java -ea ..) to
     	// use assert statements
-        assert rankToString(ACE) == "Ace";
-        assert rankToString(DEUCE) == "Deuce";
-        assert rankToString(THREE) == "Three";
-        assert rankToString(FOUR) == "Four";
-        assert rankToString(FIVE) == "Five";
-        assert rankToString(SIX) == "Six";
-        assert rankToString(SEVEN) == "Seven";
-        assert rankToString(EIGHT) == "Eight";
-        assert rankToString(NINE) == "Nine";
-        assert rankToString(TEN) == "Ten";
-        assert rankToString(JACK) == "Jack";
-        assert rankToString(QUEEN) == "Queen";
-        assert rankToString(KING) == "King";
+        assert "Ace".equals(rankToString(ACE));
+        assert "Deuce".equals(rankToString(DEUCE));
+        assert "Three".equals(rankToString(THREE));
+        assert "Four".equals(rankToString(FOUR));
+        assert "Five".equals(rankToString(FIVE));
+        assert "Six".equals(rankToString(SIX));
+        assert "Seven".equals(rankToString(SEVEN));
+        assert "Eight".equals(rankToString(EIGHT));
+        assert "Nine".equals(rankToString(NINE));
+        assert "Ten".equals(rankToString(TEN));
+        assert "Jack".equals(rankToString(JACK));
+        assert "Queen".equals(rankToString(QUEEN));
+        assert "King".equals(rankToString(KING));
 
-        assert suitToString(DIAMONDS) == "Diamonds";
-        assert suitToString(CLUBS) == "Clubs";
-        assert suitToString(HEARTS) == "Hearts";
-        assert suitToString(SPADES) == "Spades";
-
+        assert "Diamonds".equals(suitToString(DIAMONDS));
+        assert "Clubs".equals(suitToString(CLUBS));
+        assert "Hearts".equals(suitToString(HEARTS));
+        assert "Spades".equals(suitToString(SPADES));
     }
 }
 
