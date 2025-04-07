@@ -8,8 +8,8 @@ public class MyParts {
 	MyParts b = new MyParts();
 	a.y = 5;
 	b.y = 6;
-	a.x = 1;
-	b.x = 2;
+	MyParts.x = 1;
+	MyParts.x = 2;
 //	x = 4;
 //	y = 2;cannot be referenced in a static context.
 //The last value asigned to a static variable is shared across all instances.
