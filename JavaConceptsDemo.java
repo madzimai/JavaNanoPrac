@@ -23,6 +23,15 @@ class Dog extends Animal {
 	}
 
 }
+public class JavaConceptsDemo {
+// === Data Types ===
+	int id = 101;
+	String message = "Java is awesome!";
+	boolean isActive = true;
+//===Arrays ====
+	int[] scores = {85,90,78};
+
+
 
 
 
