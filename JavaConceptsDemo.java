@@ -71,7 +71,21 @@ public static void main(String[] args) {
 	System.out.println("Scores:");
 	for (int score : demo.scores){
 		System.out.println(score);
+
 		}
 
-	}
+// === Inheritance + instanceof ====
+	Animal animal = new Dog("Buddy");
+	animal.speak();
+	if (animal innstaneof Dog) {
+		System.out.println("It's a dog!");
+		}
+// === Exception ===
+	demo.devide(10, 0);
+	
+// === Java API (ArrayList) ===
+	List<String> names = new ArrayList<>();
+	names.add("Alice");
+	names.add("Bob");
+}
 }
