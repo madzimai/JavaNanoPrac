@@ -24,19 +24,27 @@ class Dog extends Animal {
 
 }
 public class JavaConceptsDemo {
+
 // === Data Types ===
 	int id = 101;
 	String message = "Java is awesome!";
 	boolean isActive = true;
+
 //===Arrays ====
 	int[] scores = {85,90,78};
 
+// === Encapsulation (private + getter) ===
+	private String secret = "TopSecret";
 
+	public String getSecret() {
+		return secret;
+	}
 
+//=== Method ===
 
+	public int add(int a, int b) {
 
-
-
-
+		return a + b;
+	}
 
 }
