@@ -8,7 +8,7 @@ class Animal {
 		this.name = name;
 	}
 	void speak() {
-		System.out.prinntln(name+ "makes a sound.");
+		System.out.println(name+ "makes a sound.");
 	}
 }
 
@@ -48,7 +48,7 @@ public class JavaConceptsDemo {
 	}
 
 //=== Exception Handling ===
-	public void devide(int a, intb) {
+	public void devide(int a, int b) {
 	try {
 		int result = a/b;
 		System.out.println("Result: " + result);
@@ -63,7 +63,7 @@ public static void main(String[] args) {
 	
 	JavaConceptsDemo demo = new JavaConceptsDemo();
 
-//=== Decision connstructs + operators ===
+//=== Decision constructs + operators ===
 	if(demo.isActive && demo.id > 100) {
 		System.out.println("Active ID");
 		}
@@ -77,7 +77,7 @@ public static void main(String[] args) {
 // === Inheritance + instanceof ====
 	Animal animal = new Dog("Buddy");
 	animal.speak();
-	if (animal innstaneof Dog) {
+	if (animal instanceof Dog) {
 		System.out.println("It's a dog!");
 		}
 // === Exception ===
@@ -89,7 +89,7 @@ public static void main(String[] args) {
 	names.add("Bob");
 // === Lambda Expressions ===
 
-	Predicate<String> startWithA = s -> s.startWith("A");
+	Predicate<String> startWithA = s -> s.startsWith("A");
 	names.stream().filter(startWithA).forEach(System.out::println);
 
 	}
