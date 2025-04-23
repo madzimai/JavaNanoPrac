@@ -47,4 +47,26 @@ public class JavaConceptsDemo {
 		return a + b;
 	}
 
+//=== Exception Handling ===
+	public void devide(int a, intb) {
+	try {
+		int result = a/b;
+		System.out.println("Result: " + result);
+
+	}catch (ArithmeticException e) {
+		System.out.println("Error: Divison by zero");
+
+		}
+
+	}
+public static void main(String[] args) {
+	
+	JavaConceptsDemo demo = new JavaConceptsDemo();
+
+//=== Decision connstructs + operators ===
+	if(demo.isActive && demo.id > 100) {
+		System.out.println("Active ID");
+		}
+
+	}
 }
