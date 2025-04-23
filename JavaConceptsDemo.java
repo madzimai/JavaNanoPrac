@@ -67,6 +67,11 @@ public static void main(String[] args) {
 	if(demo.isActive && demo.id > 100) {
 		System.out.println("Active ID");
 		}
+// === Loops + arrays ===
+	System.out.println("Scores:");
+	for (int score : demo.scores){
+		System.out.println(score);
+		}
 
 	}
 }
