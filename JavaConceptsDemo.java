@@ -87,5 +87,10 @@ public static void main(String[] args) {
 	List<String> names = new ArrayList<>();
 	names.add("Alice");
 	names.add("Bob");
-}
+// === Lambda Expressions ===
+
+	Predicate<String> startWithA = s -> s.startWith("A");
+	names.stream().filter(startWithA).forEach(System.out::println);
+
+	}
 }
